@@ -65,7 +65,7 @@ void loop()
   int myVolts = map(adc,0,1023,MIN_VOLTS,MAX_VOLTS);
   
   set_LeafDcDcConverterByVoltage(myVolts);
-  delay(1000);
+  delay(100);
 }
 
 
