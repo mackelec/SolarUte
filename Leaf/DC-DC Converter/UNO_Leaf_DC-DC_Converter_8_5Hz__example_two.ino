@@ -16,6 +16,16 @@
 
 
 
+
+#define MIN_VOLTS         13000   //  milliVolts
+#define MAX_VOLTS         15000   //  milliVolts
+#define MAX_VOLTAGE_PWM   20  // percent
+#define MIN_VOLTAGE_PWM   80  
+
+/*----------------------------------------
+ *    #defines required to set up Timer 1
+ ----------------------------------------*/
+
 #define PRESCALE_256  0B100
 #define PRESCALE_64   0B011
 #define WGM13         0B00010000
@@ -23,8 +33,13 @@
 #define PRESCALE PRESCALE_64
 #define PWMPERIOD 14706
 
+//----------------------------
+
+#define pin_POT     A0
+
 void setup() 
 {
+  pinMode(pin_POT,INPUT);
   pinMode(13,OUTPUT);  //  LED
   pinMode(9,OUTPUT);   //  PWM output
   noInterrupts();
@@ -41,19 +56,32 @@ void setup()
   OCR1A = 0;
   interrupts();
   //setPWM(9999);
-  setPWM_Percent(67);
+  //setPWM_Percent(67);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop() 
+{
+  int adc = analogRead(pin_POT);
+  int myVolts = map(adc,0,1023,MIN_VOLTS,MAX_VOLTS);
+  
+  set_LeafDcDcConverterByVoltage(myVolts);
+  delay(1000);
 }
 
+
+void set_LeafDcDcConverterByVoltage(int milliVolts)
+{
+  unsigned int x;
+  int v = constrain(milliVolts,MIN_VOLTS,MAX_VOLTS);
+  x = map(v,MIN_VOLTS,MAX_VOLTS,MIN_VOLTAGE_PWM,MAX_VOLTAGE_PWM);
+  setPWM_Percent(x);
+}
 
 void setPWM_Percent(int percent)
 {
   unsigned int x;
-  x = map(percent,0,100,0,PWMPERIOD);
+  int p = constrain(percent,MAX_VOLTAGE_PWM,MIN_VOLTAGE_PWM);
+  x = map(p,0,100,0,PWMPERIOD);
   setPWM(x);
 }
 
