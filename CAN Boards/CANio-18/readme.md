@@ -43,11 +43,10 @@ Four of the Outputs are PWM able.  The Push Pull output is PWM able but is also 
 
 #### Analogue Outputs
 
-Four analogue outputs specifically designed to connect to gauges such as Fuel, Temperature, Oil pressure etc.  In the case of my Bravo B2500, the gauges appears to be an internal 9v source with a 200 ohm impedance, and sensors operate in the range of 20 to 200 ohms.  The analague outputs are designed to match these requirements.
+Four analogue outputs specifically designed to connect to gauges such as Fuel, Temperature, Oil pressure etc.  In the case of my Bravo B2500, the gauges appears to be an internal 9v source with a 200 ohm impedance, and sensors operate in the range of 20 to 200 ohms (which is typical).  The analogue outputs are designed to match these requirements.
 
-#### Anlalogue Inputs
+#### Analogue Inputs
+
+Four 12 bit analogue inputs, diode protected, with a 0-15V range input.  Two of the inputs can be configured to 0 - 5v inputs. (Jumper)
 
 
-
-
-For example, drive the Tachometer (frequency modulated square wave), and drive (simulate) the existing engine water Temperature and Fuel sensor inputs to manipulate the respective gauges. 
