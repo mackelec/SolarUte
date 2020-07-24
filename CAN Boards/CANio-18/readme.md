@@ -6,6 +6,7 @@
 ![CANio-18](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CANio-18/CANio-18.PNG)
 
 
+
 ### Decription
 
 This board was designed as a general purpose module using CAN Bus to expand the number of I/O.  Inspired by my EV conversion project where This module will be controlling the existing Dashboard warning lights and gauges.  
@@ -26,14 +27,27 @@ The module has 8 mosfet driven outputs, 4 analogue outputs, 4 analogue inputs, i
   * 4 of the outputs are PWM able.
 * 4 Analogue Outputs, specifically designed for gauges like Fuel and Temp.
 * 4 Analalogue Inputs, 0 - 15v range.
+  * 12 bit resolution (4096 steps)
   * 2 inputs can be configured to 0 - 5v range.
 * Battery (12V) voltage sensor (internal).
 * DB25 male connector.
 * Each Input or Output is simply accessed by basic CAN Buss messages. 
 * Software can be customised using Arduino IDE.
+* Serial port (ttl).  Could be used to interface to GPS module etc.
 
 #### Outputs
 
-The outputs are mosfet driven which will drive modest outputs such as Dash lights and your average relay.  There are 8 outputs, one is PUSH PULL, the rest are Ground switching (Open Drain) with 2 that are jumperable to 12 volt switching.  
+The outputs are mosfet driven which will drive modest outputs such as Dash lights and your average automotive relay (Don't directly drive loads such as the Brake light circuit).  There are 8 outputs, one is 12v PUSH PULL, the rest are Ground switching (Open Drain) with 2 that are jumperable to 12 volt switching.  
+
+Four of the Outputs are PWM able.  The Push Pull output is PWM able but is also able to vary it's Frequency.  The intention in this case is to drive the Tachometer.
+
+#### Analogue Outputs
+
+Four analogue outputs specifically designed to connect to gauges such as Fuel, Temperature, Oil pressure etc.  In the case of my Bravo B2500, the gauges appears to be an internal 9v source with a 200 ohm impedance, and sensors operate in the range of 20 to 200 ohms.  The analague outputs are designed to match these requirements.
+
+#### Anlalogue Inputs
+
+
+
 
 For example, drive the Tachometer (frequency modulated square wave), and drive (simulate) the existing engine water Temperature and Fuel sensor inputs to manipulate the respective gauges. 
