@@ -47,6 +47,7 @@ Four analogue outputs specifically designed to connect to gauges such as Fuel, T
 
 #### Analogue Inputs
 
-Four 12 bit analogue inputs, diode protected, with a 0-15V range input.  Two of the inputs can be configured to 0 - 5v inputs. (Jumper)
+Four 12 bit analogue inputs, diode protected, with 0-15V range inputs.  Two of the inputs can be configured to 0 - 5v inputs. (Jumper)
+The module has In addition, a fifth internal sensor to measure the 12v battery.
 
 
