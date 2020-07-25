@@ -51,3 +51,8 @@ Four 12 bit analogue inputs, diode protected, with 0-15V range inputs.  Two of t
 The module has In addition, a fifth internal sensor to measure the 12v battery.
 
 
+##### DB25 Connector
+
+I decided to use a DB25 connector because I was aiming this module to be low cost and to use a IP66 connector would have cost more than the module itself.  The DB25 is a reliable connector, contacts good for one amp, and will handle a certain amount of enviromental abuse.  I'll either be using this module inside the Cabin or I'll use grommiting to weather-seal.  
+
+![Pinout](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CANio-18/CANio-18%20DB25%20pinout.PNG)
