@@ -51,6 +51,16 @@ Four 12 bit analogue inputs, diode protected, with 0-15V range inputs.  Two of t
 The module has In addition, a fifth internal sensor to measure the 12v battery.
 
 
+#### Software
+
+Software is yet to be done.
+
+*  CAN address for each output, and an additional address for all 8 outputs.
+*  CAN address for each PWM output.
+*  CAN address to set Frequency of the Push Pull output.
+*  CAN address to read all analogue inputs as adc value.  Scan rate to be defined.
+
+
 ##### DB25 Connector
 
 I decided to use a DB25 connector because I was aiming this module to be low cost and to use a IP66 connector would have cost more than the module itself.  The DB25 is a reliable connector, contacts good for one amp, and will handle a certain amount of enviromental abuse.  I'll either be using this module inside the Cabin or I'll use grommiting to weather-seal.  
