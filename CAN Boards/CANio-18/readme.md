@@ -66,3 +66,12 @@ Software is yet to be done.
 I decided to use a DB25 connector because I was aiming this module to be low cost and to use a IP66 connector would have cost more than the module itself.  The DB25 is a reliable connector, contacts good for one amp, and will handle a certain amount of enviromental abuse.  I'll either be using this module inside the Cabin or I'll use grommiting to weather-seal.  
 
 ![Pinout](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CANio-18/CANio-18%20DB25%20pinout.PNG)
+
+
+#### Assembly
+
+Very few through hole parts need to be loaded.  
+*  J1 and J2 are already bridged for the analogue ports to be all set to 0 -12v range.
+PCB bridge track (solder side) would need to be cut to use the jummper.
+*  Capacitor C22, 470uf, could be omitted as it is in parallel with 5 x 22uF ceramic capacitors.
+
