@@ -18,7 +18,8 @@ This module is a compact, low cost, using the stm32F103C8 processor (same as Blu
 
 * CAN bus operated.  (with 120 ohm terminator jumper.)
 * STM32F103C8 processor.  64k program memory 20k RAM.
-* Arduino IDE platform. (Official)
+* Arduino IDE platform. 
+* STM32duino, Official, same as BluePill.
 * 48mm x 80mm
 * Current transducer input and reference signal input - 12bit adc
 * Voltage resolution: 100mV
