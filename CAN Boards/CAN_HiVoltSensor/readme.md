@@ -26,6 +26,8 @@ This module is a compact, low cost, using the stm32F103C8 processor (same as Blu
   (400 Amp range transducer)
 * Power reolution:    1Watt
 * One CAN address, 8 byte frame contains Voltage, Current and Power Measurments.
+* COM1 is not shared, found on PROG port.
+* COM3 is used to communicate with the STM8.
 
 #### High Voltage Input
 
