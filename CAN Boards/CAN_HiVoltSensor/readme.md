@@ -33,3 +33,8 @@ This module is a compact, low cost, using the stm32F103C8 processor (same as Blu
 ** (negative side of High Volt input is still connected.  The Relay removes the input circuit to revent slow discharge)
 
 
+
+
+![CANbv](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CAN_HiVoltSensor/CANbv_001.png)
+
+
