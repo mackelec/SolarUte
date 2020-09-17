@@ -23,6 +23,7 @@ This module is a compact, low cost, using the stm32F103C8 processor (same as Blu
 * Current transducer input and reference signal input - 12bit adc
 * Voltage resolution: 100mV
 * Current resolution: 100mA
+  (400 Amp range transducer)
 * Power reolution:    1Watt
 
 #### High Voltage Input
