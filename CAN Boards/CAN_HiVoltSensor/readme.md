@@ -42,3 +42,4 @@ This module is a compact, low cost, using the stm32F103C8 processor (same as Blu
 ![CANbv](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CAN_HiVoltSensor/CANbv_001.png)
 
 
+![HSTS21](https://github.com/mackelec/SolarUte/blob/master/CAN%20Boards/CAN_HiVoltSensor/HSTS21.jpeg)
