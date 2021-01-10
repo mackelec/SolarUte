@@ -48,6 +48,12 @@ The trace is zoomed out, past the start up phase and showing how the economiser 
 
 ![With Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00004.png)
 
+Energising phase.  Soft starting.
+
+![Start](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00005.png)
+
+![Start](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00006.png)
+
 
 
 
