@@ -23,7 +23,18 @@ The EV200 included the Economiser that came with it.
  
 ### Waveforms
 
+#### Economiser Removed
+
 This scope shot is using a Hantek current clamp with the wire wrapped around 8 times with the Hantek set to 1mV / 100mA setting.
-The economiser was removed for this test - the contactor got uncomfortably hot after a while.  The current also drops off as the contactor got warmer.
+The economiser was removed for this test - the contactor got uncomfortably hot after a while.  The current also drops off as the contactor got warmer.  Depending on temperature, the current can be as high as 4 amps with ~3.6 amps being more the norm. (measured by the PSU)
 
 ![No Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00001.png)
+
+
+#### Economiser Installed
+
+
+![With Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00003.png)
+
+
+
