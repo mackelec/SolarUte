@@ -36,9 +36,19 @@ The economiser was removed for this test - the contactor got uncomfortably hot a
 #### Economiser Installed
 
 
-With the economiser installed.  This trace is measured through a 1 ohm resistor.
+With the economiser installed.  This trace is measured the contactor current through a 1 ohm resistor.
+
+
 
 ![With Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00003.png)
+
+
+
+The trace is zoomed out, past the start up phase and showing how the economiser is keeping the current so low.
+
+![With Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00004.png)
+
+
 
 
 
