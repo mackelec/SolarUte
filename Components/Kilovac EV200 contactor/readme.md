@@ -15,8 +15,11 @@ I found the Pull-in and Hold-up voltages using the Siglent SPD1305X power supply
 The EV200 included the Economiser that came with it.
 100 mV below the results given will not Pull-in or Hold-up.
 
-Pull-in Voltage   8.6 Volts
-Hold-up Voltage   6.6 Volts
-Current           117mA  @ 14 Volts (1.628W)
-                  138mA  @ 12 Volts 
-### 
+ * Pull-in Voltage   8.6 Volts
+ * Hold-up Voltage   6.6 Volts
+ * Current           117mA  @ 14 Volts (1.628W)
+ *                   138mA  @ 12 Volts 
+ 
+### Waveforms
+
+
