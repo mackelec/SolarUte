@@ -20,6 +20,7 @@ The EV200 included the Economiser that came with it.
  * Current           117mA  @ 14 Volts (1.628W)
  *                   138mA  @ 12 Volts 
  
+ 
 ### Waveforms
 
-
+![No Economiser](https://github.com/mackelec/SolarUte/blob/master/Components/Kilovac%20EV200%20contactor/SDS00001.png)
