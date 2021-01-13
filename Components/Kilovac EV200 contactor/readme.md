@@ -12,14 +12,23 @@ EV200 Datasheet  https://github.com/mackelec/SolarUte/blob/master/Components/Kil
 ### Results
 
 I found the Pull-in and Hold-up voltages using the Siglent SPD1305X power supply and adjusting the voltage in 100mV steps.  Current was also measured by the Siglent SPD1305X.
-The EV200 included the Economiser that came with it.
 100 mV below the results given will not Pull-in or Hold-up.
+
+####  With Economiser
 
  * Pull-in Voltage   8.6 Volts
  * Hold-up Voltage   6.6 Volts
  * Current
    - 117mA  @ 14 Volts (1.628W)
    - 138mA  @ 12 Volts 
+   
+####  Without Economiser
+
+ * Pull-in Voltage   4.6 Volts
+ * Hold-up Voltage   0.7 Volts
+ * Current
+   - 4100mA  @ 14 Volts (cold)
+   - 3600mA  @ 12 Volts (cold)
  
  
 ### Waveforms
