@@ -11,3 +11,12 @@ This has many advantages on the property since we have many kiloWatts of solar p
 ![Ute - pre conversion](https://github.com/mackelec/SolarUte/blob/master/photos/uet1.jpg)
 
 
+###  The Project
+
+##### Motor
+
+After devouring Damien Macguire's video on youtube, We decided to use the Nissan Leaf motor and inverter. The Leaf motor has similar max torque and kWatts as the original "new" diesel engine except the torque of the Leaf is available from quite low RPM.  So we see this as being a very good match.  (Actually, the Leaf motor should feel markedly more torquie and powerful)
+
+##### Geartrain
+
+Most electric conversion don't worry about the clutch, 
