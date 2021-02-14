@@ -1,5 +1,19 @@
 # SolarUte
 
+The story about converting a 2000 4WD Ford Couier Diesel Ute (Mazda 2500) to Battery Electric.
+
+## [The Story](https://github.com/mackelec/SolarUte/blob/master/The_Story/readme.md)
+
+
+
+![Solar Ute](https://github.com/mackelec/SolarUte/blob/master/photos/P1070992-x.jpg)
+
+
+
+
+
+
+
 ###  Introduction
 
 We bought this Ute, 2000 4WD Ford Couier Diesel Ute - which is the same as the Mazda B2500 Ute, to replace our even older 1994 Petrol B2600 4WD Ute.  It was a problem storing petrol on our property so we were converting to Diesl :-).
