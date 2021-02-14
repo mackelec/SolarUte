@@ -1,6 +1,6 @@
 # SolarUte
 
-The story about converting a 2000 4WD Ford Couier Diesel Ute (Mazda 2500) to Battery Electric.
+The story about converting a 2000 4WD Ford Couier Diesel Ute (Mazda B2500) to Battery Electric.
 
 
 
