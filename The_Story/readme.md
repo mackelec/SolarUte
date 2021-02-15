@@ -28,10 +28,16 @@ It was decided to keep the clutch because we often have to climb over fallen wat
 
 #### Motor - Flywheel Coupler
 
+look here for [Fusion files](https://github.com/mackelec/SolarUte/tree/master/Fusion360)
+
 
 ![Coupler](https://github.com/mackelec/SolarUte/blob/master/photos/P1070662.jpg)
 
-[Fusion files](https://github.com/mackelec/SolarUte/tree/master/Fusion360)
+![Coupler with thrust bearing](https://github.com/mackelec/SolarUte/blob/master/photos/P1070752.jpg)
+
+
+
+
 
 
 
