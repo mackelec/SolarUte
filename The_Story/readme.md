@@ -24,4 +24,6 @@ Most electric conversions don't worry about the clutch.  It is much simpler to f
 So naturally we wanted to do this the hard ward and keep the clutch :grinning:
 It was decided to keep the clutch because we often have to climb over fallen wattle or branches or may drop a wheel into a divit / hole and may just need the extra torque to climb out, somehow I don't think this will be the case.
 
+[youtube - To Clutch or Not to Clutch](https://www.youtube.com/watch?v=20hncy7y4_I)
+
 
