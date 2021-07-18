@@ -19,4 +19,10 @@ We had built,with our own hands, a cabin and utility building out of the wood we
 
 
 
+### Aftermath
+
+
+![ourCabin](https://github.com/mackelec/SolarUte/blob/master/The_Story/Bush_Fires/images/Resized_20191211_110519.jpg)
+
+#####  Cabin Destroyed
 
